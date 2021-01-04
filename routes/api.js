@@ -19,7 +19,7 @@ router.get('/managingAsync/ajaxExample', function (req, res, next) {
  });
 
 router.get('/managingAsync/correctAjaxExample', function (req, res, next) {
-  res.send( ['It worked!');
+  res.send( ['It worked!'] );
 });
 
 router.get('/managingAsync/assets/bad/:id', function (req, res, next) {
