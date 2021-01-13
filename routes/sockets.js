@@ -7,7 +7,7 @@
  * Visit http://www.pragmaticprogrammer.com/titles/rkrxjs for more book information.
 ***/
 let url = require('url');
-let WebSocket = require('wss');
+let WebSocket = require('ws');
 let loremIpsum = require('lorem-ipsum');
 
 let rooms = [{
